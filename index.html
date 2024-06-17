@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3>bockmarker</h3>
+        <div class="website">
+            <h2>your favourite website</h2>
+            <div class="website-name">
+                <label for="website-name">site name</label>
+                <input type="text" id="website-name" placeholder="enter your website name" required>
+            </div>
+            <div class="website-url">
+                <label for="website-url">site URL</label>
+                <input type="url" id="website-url" placeholder="enter your website url" required>
+            </div>
+            <button onclick="creatBockmark()" type="submit">submit</button>
+        </div>
+        <div class="bockmarked-websites">
+            <h3>saved bockmarks</h3><hr>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
